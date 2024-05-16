@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://imvo.site
+
+Disallow: /*?
+
+# Sitemaps
+Sitemap: https://imvo.site/sitemap.xml

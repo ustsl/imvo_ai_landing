@@ -1,0 +1,59 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.black {
+    font-size: 4rem;
+    color: var(--black);
+}
+
+
+.color span {
+    font-size: 7rem;
+    line-height: 9rem;
+    font-weight: 800;
+    background-image: linear-gradient(90deg, rgba(191, 15, 255, 1) 0%, rgba(67, 77, 180, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+@media (max-width: 1200px) {
+
+    .block {
+        gap: 20px;
+    }
+
+
+    .black {
+        font-size: 2rem;
+    }
+
+    .color span {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .block {
+        gap: 0px;
+    }
+
+    .black {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .color span {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}

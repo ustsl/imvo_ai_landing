@@ -1,0 +1,7 @@
+.block {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.9em;
+    font-weight: 600;
+}

@@ -1,0 +1,20 @@
+{
+  "landing": {
+    "title": "GPT Prompt Lab",
+    "subtitle": "Telegram'da",
+    "lead": "Rahat bir arayüzde AI-prompts oluşturun ve Telegram içinde önceden yapılandırılmış botları veya hizmetlerinizde API olarak kullanın.",
+    "description": "TELEGRAM içinde GPT sağlayıcısı IMVO'yu kullanın. Hizmet, <strong>anahtar OPEN AI işlevselliği</strong> sunar, geçmiş mesajların özelleştirilebilir hafızası ve esnek prompt yapılandırması ile genişletilmiştir. Tüm kullanıcılar <strong>başlangıç bakiyesi</strong> alır ve bu bakiye ile hizmetimizi kullanabilirsiniz."
+  },
+  "button": {
+    "button": "Botu kullanmaya başla"
+  },
+  "advantages": {
+    "a": "<p>Abonelik ücreti olmadan kripto para ile ödeme yapın ve belirli kullanımlar için ödeme yapın. Her bir bireysel talep için ödeme yaparsınız. <strong>Kârlıdır.</strong></p>",
+    "b": "<p>Prompt ayarları içinde <strong>diyalog hafızası derinliği</strong> için benzersiz bir ayar. Önceki bağlamınıza göre yanıtların tutarlılığını ve doğruluğunu izleyin.</p>",
+    "c": "<p>Karmaşık prompts oluşturun, bunlara bağlantılar paylaşın ve <strong>başkalarının onları kullanmasından para kazanın</strong>. GPT'nin yeni olanaklarını keşfedin.</p>"
+  },
+  "meta": {
+    "title": "IMVO. Telegram'da GPT Prompt Oluşturucu",
+    "description": "Prompts oluşturma ve bunları Telegam veya API aracılığıyla kullanma hizmeti. Kripto işlem ile."
+  }
+}

@@ -1,0 +1,14 @@
+.block {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .block {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}

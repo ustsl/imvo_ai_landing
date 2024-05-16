@@ -1,0 +1,14 @@
+.quick {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 730px;
+    border: 1px solid var(--blue);
+    border-radius: var(--border-radius);
+}
+
+.quick iframe {
+    border: 0;
+    max-width: 730px;
+    width: 100%;
+    margin: 30px auto;
+}

@@ -1,0 +1,20 @@
+{
+  "landing": {
+    "title": "GPT Prompt Lab",
+    "subtitle": "in Telegram",
+    "lead": "Create AI-prompts in a comfortable interface and use pre-configured bots inside telegram, or as APIs in your services.",
+    "description": "Use the GPT provider IMVO within TELEGRAM. The service offers <strong>key OPEN AI functionality</strong>, expanded with customizable memory of past messages and flexible pre-configuration of prompts. All users <strong>receive a starting balance</strong> with which you can use our service."
+  },
+  "button": {
+    "button": "Start using bot"
+  },
+  "advantages": {
+    "a": "<p>Pay with cryptocurrency and for specific usage without a subscription fee. You pay for each individual request. <strong>It's profitable.</strong></p>",
+    "b": "<p>A unique setting for <strong>the depth of dialogue memorization</strong> within the prompt settings. Monitor the consistency and accuracy of responses based on your previous context.</p>",
+    "c": "<p>Create complex prompts, share links to them, and <strong>make money from other people using them</strong>. Discover new possibilities of GPT.</p>"
+  },
+  "meta": {
+    "title": "IMVO. GPT Prompt builder in Telegram",
+    "description": "A service for creating prompts with their further use in Telegram or through the API. With cryptoprocessing."
+  }
+}

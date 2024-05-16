@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6rem 0;
+  gap: 5rem;
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+@media (max-width:1200px) {
+  .main {
+    padding: 6rem 1rem;
+  }
+}
+
+@media (max-width:768px) {
+  .main {
+    padding: 4rem 1rem;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+
+  .cards {
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+}

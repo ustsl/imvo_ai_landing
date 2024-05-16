@@ -1,0 +1,10 @@
+.block {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.block span {
+    font-size: 1.5em;
+    font-weight: 700;
+}

@@ -1,0 +1,40 @@
+.block {
+    display: flex;
+    position: relative;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block> :first-child {
+    position: absolute;
+    left: 0;
+}
+
+.block> :last-child {
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 1200px) {
+    .block {
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+
+    .block> :first-child {
+        position: relative;
+        left: none;
+    }
+
+    .block> :last-child {
+        position: relative;
+        right: none;
+    }
+
+}

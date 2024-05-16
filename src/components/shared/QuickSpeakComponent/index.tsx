@@ -1,0 +1,1 @@
+export { QuickSpeakComponent } from "./ui/QuickSpeakComponent";
