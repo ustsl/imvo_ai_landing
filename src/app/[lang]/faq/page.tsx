@@ -9,7 +9,7 @@ import { GridBlock } from "@/components/shared/GridBlock";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { getDictionary } from "@/dictionaries/serverDictionary";
-import { Locale } from "../../../i18n.config";
+
 import { Metadata } from "next";
 import { VideoContainer } from "@/components/shared/VideoContainer";
 
@@ -29,7 +29,7 @@ export async function generateMetadata(
 export default async function Home({
   params
 }: {
-  params: { lang: Locale }
+  params: { lang: any }
 }) {
   const lang = params.lang ? params.lang : 'en'
   const { landing, button, advantages } = await getDictionary(lang)
