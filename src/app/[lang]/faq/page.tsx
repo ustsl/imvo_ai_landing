@@ -10,6 +10,7 @@ import { BaseContainer } from "@/components/shared/BaseContainer/ui/BaseContaine
 import { LinkButton } from "@/components/shared/LinkButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { TitleBlock } from "@/components/shared/TitleElement";
 
 
 export async function generateMetadata(
@@ -33,7 +34,7 @@ export default async function Home({
   const { faq, button } = await getDictionary(lang)
   return (
     <BaseContainer>
-      <h1>{faq.title}</h1>
+      <TitleBlock tag="h1" text={faq.title} />
       <Cards faq={faq} />
       <LinkButton href={"https://t.me/imvo_prompt_bot"}
         text={button.button}
