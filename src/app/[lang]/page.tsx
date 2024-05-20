@@ -12,6 +12,8 @@ import { getDictionary } from "@/dictionaries/serverDictionary";
 import { Locale } from "../../../i18n.config";
 import { Metadata } from "next";
 import { VideoContainer } from "@/components/shared/VideoContainer";
+import { BaseContainer } from "@/components/shared/BaseContainer/ui/BaseContainer";
+import Link from "next/link";
 
 
 export async function generateMetadata(
@@ -34,7 +36,7 @@ export default async function Home({
   const lang = params.lang ? params.lang : 'en'
   const { landing, button, advantages } = await getDictionary(lang)
   return (
-    <main className={styles.main}>
+    <BaseContainer>
       <GridBlock gridSize={'S'}>
         <ColoredTitle header={landing.title} subheader={landing.subtitle} />
         <ShortDescription
@@ -45,6 +47,8 @@ export default async function Home({
           <LinkButton href={"https://t.me/imvo_prompt_bot"}
             text={button.button}
             icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
+
+          <Link className={styles.link} href={`/${lang}/faq`}>{button.manual}</Link>
 
         </div>
       </GridBlock>
@@ -64,13 +68,11 @@ export default async function Home({
       <ShortDescription
         text={landing.description} />
       <VideoContainer video={"https://www.youtube.com/embed/7l8jlwp8314?si=YUI0B2PwqFb1jjxx"} />
-      <div className={styles.buttons}>
 
-        <LinkButton href={"https://t.me/imvo_prompt_bot"}
-          text={button.button}
-          icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
+      <LinkButton href={"https://t.me/imvo_prompt_bot"}
+        text={button.button}
+        icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
 
-      </div>
-    </main>
+    </BaseContainer>
   );
 }

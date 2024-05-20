@@ -6,7 +6,8 @@
     "description": "TELEGRAM içinde GPT sağlayıcısı IMVO'yu kullanın. Hizmet, <strong>anahtar OPEN AI işlevselliği</strong> sunar, geçmiş mesajların özelleştirilebilir hafızası ve esnek prompt yapılandırması ile genişletilmiştir. Tüm kullanıcılar <strong>başlangıç bakiyesi</strong> alır ve bu bakiye ile hizmetimizi kullanabilirsiniz."
   },
   "button": {
-    "button": "Botu kullanmaya başla"
+    "button": "Botu kullanmaya başla",
+    "manual": "Talimatları oku"
   },
   "advantages": {
     "a": "<p>Abonelik ücreti olmadan kripto para ile ödeme yapın ve belirli kullanımlar için ödeme yapın. Her bir bireysel talep için ödeme yaparsınız. <strong>Kârlıdır.</strong></p>",
@@ -16,5 +17,58 @@
   "meta": {
     "title": "IMVO. Telegram'da GPT Prompt Oluşturucu",
     "description": "Prompts oluşturma ve bunları Telegam veya API aracılığıyla kullanma hizmeti. Kripto işlem ile."
+  },
+  "faq": {
+    "metaTitle": "Telegram'da ChatGPT Nasıl Kullanılır",
+    "metaDescription": "Herkes için ayrıntılı 12 adımlı kılavuz",
+    "title": "Telegram'da ChatGPT Nasıl Kullanılır",
+    "p1": {
+      "title": "Bot içinde START komutuyla başlayın",
+      "description": "Bu, sizi kaydedecek ve başlangıç bakiyesi verecek. Zaten kayıtlıysanız, bu komut size temel bilgileri de verecektir. Daha sonra uygulama arayüzünü düğme ile açın."
+    },
+    "p2": {
+      "title": "İlk promptunuzu oluşturun",
+      "description": "Prompt oluşturma düğmesine tıklayın. Başlık ve açıklama yalnızca promptu tanımlamak içindir, ana PROMPT alanı ise botun çalışmasını etkiler."
+    },
+    "p3": {
+      "title": "Promptu tanımlayın",
+      "description": "Yukarıdaki resimde geliştirici için basit bir prompt örneği gösterilmiştir."
+    },
+    "p4": {
+      "title": "Teknik ayarları unutmayın",
+      "description": "Model türünü seçin (modern GPT modelleri mevcuttur), hafıza penceresi (botun hatırlayacağı ve yanıtlarında dikkate alacağı mesaj sayısı, diyalog senaryolarında veya bağlamın önemli olduğu diğer durumlarda önemlidir) ve prompt durumu (açık promptlar diğer kişiler tarafından kullanılabilir ve diğer kullanıcıların taleplerinin maliyetinin %10'unu alırsınız). Ayarları tamamladıktan sonra kaydedin."
+    },
+    "p5": {
+      "title": "Oluşturulan promptu kurun",
+      "description": "Kaydettikten sonra oluşturulan prompt sayfasına yönlendirileceksiniz. Şimdi onu Telegram sohbetinize kurabilirsiniz."
+    },
+    "p6": {
+      "title": "Düzenleyin ve paylaşın",
+      "description": "Oluşturulan promptu istediğiniz gibi düzenleyebilir ve üçüncü taraf hizmetlerde Telegram dışında kullanmak için bir API bağlantısı olarak veya ID ile paylaşabilirsiniz."
+    },
+    "p7": {
+      "title": "ID ile paylaşın",
+      "description": "Promptu diğer kullanıcıların sohbetlerinde kullanmak için ID'yi kopyalayın ve diğer kullanıcılarla paylaşın."
+    },
+    "p8": {
+      "title": "Başkalarının ID'lerini ekleyin",
+      "description": "Ana sayfadaki ilgili alana ID'yi ekleyin. Kod doğruysa ve prompt durumu diğer kullanıcılar tarafından kullanımına izin veriyorsa, sohbet içinde prompt kurulum arayüzü görünecektir."
+    },
+    "p9": {
+      "title": "Kod yanlışsa veya prompt kapalıysa",
+      "description": "Prompt kurulamazsa, kullanıcı uygun bir hata alacaktır."
+    },
+    "p10": {
+      "title": "Sohbette ek özellikler",
+      "description": "Yeni bir prompt kullanıyorsanız veya diğer sorunlarla karşılaşıyorsanız, /clear komutunu kullanmanızı öneririz. Bu komut, bota gönderilen önceki mesajların hafızasını siler."
+    },
+    "p11": {
+      "title": "Ödeme süreci",
+      "description": "Ekstra ücretler veya limitler olmadan her istek için ödeme yaparsınız. Ödeme, kripto-işleme yoluyla herhangi bir miktar için yapılır."
+    },
+    "p12": {
+      "title": "Kripto-işleme",
+      "description": "Gerekli miktarı girdikten sonra, ilgili arayüze yönlendirileceksiniz. Ödemeyi tamamlayın ve fonların hesabınıza geçmesini bekleyin. Başka bir şekilde ödeme yapmak istiyorsanız, Telegram'da bizimle iletişime geçin (iletişim bilgileri uygulama içinde belirtilmiştir)."
+    }
   }
 }

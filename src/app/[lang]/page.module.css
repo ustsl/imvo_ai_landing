@@ -1,19 +1,8 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 6rem 0;
-  gap: 5rem;
-  min-height: 100vh;
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-
 .buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
@@ -24,6 +13,17 @@
   justify-content: space-between;
   overflow: hidden;
   overflow-x: auto;
+}
+
+.link {
+  font-size: 1.2em;
+  color: var(--blue);
+  text-decoration: underline;
+  transition: all .2s ease;
+}
+
+.link:hover {
+  color: var(--pink)
 }
 
 @media (max-width:1200px) {

@@ -6,7 +6,8 @@
     "description": "Use the GPT provider IMVO within TELEGRAM. The service offers <strong>key OPEN AI functionality</strong>, expanded with customizable memory of past messages and flexible pre-configuration of prompts. All users <strong>receive a starting balance</strong> with which you can use our service."
   },
   "button": {
-    "button": "Start using bot"
+    "button": "Start using bot",
+    "manual": "Read the instructions"
   },
   "advantages": {
     "a": "<p>Pay with cryptocurrency and for specific usage without a subscription fee. You pay for each individual request. <strong>It's profitable.</strong></p>",
@@ -16,5 +17,58 @@
   "meta": {
     "title": "IMVO. Chat GPT in Telegram. Flexible prompt builder",
     "description": "A service for creating prompts with their further use in Telegram or through the API. With cryptoprocessing."
+  },
+  "faq": {
+    "metaTitle": "How to Use ChatGPT in Telegram",
+    "metaDescription": "A detailed 12-step guide for everyone",
+    "title": "How to Use ChatGPT in Telegram",
+    "p1": {
+      "title": "Start with the START command inside the bot",
+      "description": "This will register you and give you a starting balance. If you are already registered, this command will also provide you with basic information. Next, open the application interface using the button."
+    },
+    "p2": {
+      "title": "Create your first prompt",
+      "description": "Click on the create prompt button. The title and description are only for identifying the prompt, while the main PROMPT field affects the bot's operation."
+    },
+    "p3": {
+      "title": "Describe the prompt",
+      "description": "The example in the image above shows an example of a simple prompt for a developer."
+    },
+    "p4": {
+      "title": "Don't forget the technical settings",
+      "description": "Choose the model type (modern GPT models are available), memory window (the number of messages that the bot will remember and consider in its responses, which is important in dialogue scenarios or other cases where context is important), and prompt status (open prompts can be used by other people, and you will receive 10% of the cost of requests from other users). Save your settings after completing them."
+    },
+    "p5": {
+      "title": "Install the collected prompt",
+      "description": "After saving, you will be taken to the created prompt page. Now you can install it in your Telegram chat."
+    },
+    "p6": {
+      "title": "Edit and share",
+      "description": "You can edit the created prompt as you like and share it as an API link for use outside of Telegram in third-party services or via ID."
+    },
+    "p7": {
+      "title": "Share via ID",
+      "description": "To use the prompt in other users' chats, copy the ID and share it with other users."
+    },
+    "p8": {
+      "title": "Insert others' IDs",
+      "description": "Insert the ID in the corresponding field on the main page. If the code is correct and the prompt status allows its use by other users, the prompt installation interface will appear in the chat."
+    },
+    "p9": {
+      "title": "If the code is incorrect, or the prompt is closed",
+      "description": "If the prompt cannot be installed, the user will receive an appropriate error."
+    },
+    "p10": {
+      "title": "Additional features in the chat",
+      "description": "If you are using a new prompt or encountering other issues, we recommend using the /clear command. This command clears the memory of previous messages to the bot."
+    },
+    "p11": {
+      "title": "Payment process",
+      "description": "You pay for each request without any extra rates or limits. Payment is made for any amount through crypto-processing."
+    },
+    "p12": {
+      "title": "Crypto-processing",
+      "description": "After entering the required amount, you will be taken to the corresponding interface. Complete the payment and wait for the funds to be credited. If you want to make a payment in another way, contact us on Telegram (contacts are listed inside the application)."
+    }
   }
 }
