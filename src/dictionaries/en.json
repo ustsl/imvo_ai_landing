@@ -69,6 +69,22 @@
     "p12": {
       "title": "Crypto-processing",
       "description": "After entering the required amount, you will be taken to the corresponding interface. Complete the payment and wait for the funds to be credited. If you want to make a payment in another way, contact us on Telegram (contacts are listed inside the application)."
+    },
+    "dalle1": {
+      "title": "You can also create images",
+      "description": "In the prompt settings, select the DALLE model"
+    },
+    "dalle2": {
+      "title": "Define additional properties besides the prompt",
+      "description": "In the properties, you can set the size and additional generation parameters, which can also affect the result."
+    },
+    "dalle3": {
+      "title": "Set the prompt and make a request",
+      "description": "The response will come as a link to an image that you can save without loss of quality."
+    },
+    "dalle4": {
+      "title": "In this case, the result will be as follows",
+      "description": "Experiment!"
     }
   }
 }

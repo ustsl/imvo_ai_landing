@@ -14,6 +14,11 @@ import img9 from './img/9.png'
 import img10 from './img/10.png'
 import img11 from './img/11.png'
 
+import dalee1 from './img/dalee1.png'
+import dalee2 from './img/dalee2.png'
+import dalee3 from './img/dalee3.png'
+import dalee4 from './img/dalee4.png'
+
 export const Cards = ({ faq }: { faq: any }) => {
 
     const content = [
@@ -22,10 +27,17 @@ export const Cards = ({ faq }: { faq: any }) => {
         { title: faq.p3.title, text: faq.p3.description, image: img2 },
         { title: faq.p4.title, text: faq.p4.description, image: img3 },
         { title: faq.p5.title, text: faq.p5.description, image: img4 },
+
+        { title: faq.dalle1.title, text: faq.dalle1.description, image: dalee1 },
+        { title: faq.dalle2.title, text: faq.dalle2.description, image: dalee2 },
+        { title: faq.dalle3.title, text: faq.dalle3.description, image: dalee3 },
+        { title: faq.dalle4.title, text: faq.dalle4.description, image: dalee4 },
+
         { title: faq.p6.title, text: faq.p6.description, image: img5 },
         { title: faq.p7.title, text: faq.p7.description, image: img6 },
         { title: faq.p8.title, text: faq.p8.description, image: img7 },
         { title: faq.p9.title, text: faq.p9.description, image: img8 },
+
         { title: faq.p10.title, text: faq.p10.description, image: img9 },
         { title: faq.p11.title, text: faq.p11.description, image: img10 },
         { title: faq.p12.title, text: faq.p12.description, image: img11 },

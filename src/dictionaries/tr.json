@@ -69,6 +69,22 @@
     "p12": {
       "title": "Kripto-işleme",
       "description": "Gerekli miktarı girdikten sonra, ilgili arayüze yönlendirileceksiniz. Ödemeyi tamamlayın ve fonların hesabınıza geçmesini bekleyin. Başka bir şekilde ödeme yapmak istiyorsanız, Telegram'da bizimle iletişime geçin (iletişim bilgileri uygulama içinde belirtilmiştir)."
+    },
+    "dalle1": {
+      "title": "Ayrıca görseller oluşturabilirsiniz",
+      "description": "İsteme ayarlarında DALLE modelini seçin"
+    },
+    "dalle2": {
+      "title": "İstemenin yanı sıra ek özellikler belirleyin",
+      "description": "Özelliklerde, boyutu ve sonucu da etkileyebilecek ek üretim parametrelerini belirleyebilirsiniz."
+    },
+    "dalle3": {
+      "title": "İsteme belirleyin ve bir istek yapın",
+      "description": "Yanıt, kalite kaybı olmadan kaydedebileceğiniz bir görsele bağlantı olarak gelecektir."
+    },
+    "dalle4": {
+      "title": "Bu durumda sonuç şöyle olacak",
+      "description": "Deneyin!"
     }
   }
 }

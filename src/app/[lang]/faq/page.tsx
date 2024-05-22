@@ -1,5 +1,4 @@
 
-import styles from "./page.module.css";
 
 import { getDictionary } from "@/dictionaries/serverDictionary";
 
@@ -39,7 +38,6 @@ export default async function Home({
       <LinkButton href={"https://t.me/imvo_prompt_bot"}
         text={button.button}
         icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
-
     </BaseContainer>
   );
 }
