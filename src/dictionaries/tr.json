@@ -10,9 +10,12 @@
     "manual": "Talimatları oku"
   },
   "advantages": {
-    "a": "<p>Abonelik ücreti olmadan kripto para ile ödeme yapın ve belirli kullanımlar için ödeme yapın. Her bir bireysel talep için ödeme yaparsınız. <strong>Kârlıdır.</strong></p>",
-    "b": "<p>Prompt ayarları içinde <strong>diyalog hafızası derinliği</strong> için benzersiz bir ayar. Önceki bağlamınıza göre yanıtların tutarlılığını ve doğruluğunu izleyin.</p>",
-    "c": "<p>Karmaşık prompts oluşturun, bunlara bağlantılar paylaşın ve <strong>başkalarının onları kullanmasından para kazanın</strong>. GPT'nin yeni olanaklarını keşfedin.</p>"
+    "a": "<p>Bölgesel kullanım kısıtlamaları olmadan kripto para ile ödeme. <strong>Hizmete CryptoCloud işleme bağlantısı sağlanmıştır.</strong></p>",
+    "b": "<p>Standart CHAT GPT'nin <strong>ötesinde gelişmiş ayarlar.</strong> Bir diyaloğun içindeki önceki mesajların hafıza derinliğini kontrol edebilir ve istem kararlılığını yönetebilirsiniz.</p>",
+    "c": "<p>Diğer kullanıcılarla paylaşarak ön ayarlarınızdan <strong>para kazanabilirsiniz.</strong> İstemlerin kullanım maliyetinin %10'una kadar kazanabilirsiniz.</p>",
+    "d": "<p>Görsel tanımanın <strong>modern modellerini ve özelliklerini</strong> destekliyoruz. El yazısı mektupları, tarifleri, görsel grafiklerini okuyabilen botlar oluşturun.</p>",
+    "e": "<p>Sadece Telegram'da değil, aynı zamanda <strong>kendi hizmetlerinizde başlatmak için API bağlantıları</strong> da sağlıyoruz.</p>",
+    "f": "<p>Ana işlevler mesajlaşma sohbeti içinde gerçekleştirilmiştir; istem laboratuvarı kullanışlı bir <strong>Telegram Mini App arayüzünde gerçekleştirilmiştir.</strong></p>"
   },
   "meta": {
     "title": "IMVO. Telegram'da GPT Prompt Oluşturucu",
@@ -69,6 +72,10 @@
     "p12": {
       "title": "Kripto-işleme",
       "description": "Gerekli miktarı girdikten sonra, ilgili arayüze yönlendirileceksiniz. Ödemeyi tamamlayın ve fonların hesabınıza geçmesini bekleyin. Başka bir şekilde ödeme yapmak istiyorsanız, Telegram'da bizimle iletişime geçin (iletişim bilgileri uygulama içinde belirtilmiştir)."
+    },
+    "p13": {
+      "title": "Görsel Tanıma",
+      "description": "Botun sohbete gönderdiğiniz görüntülere doğru bir şekilde yanıt verdiğinden emin olmak için, ön ayar isteminin gpt-4o olarak ayarlandığından emin olun. Görsel tanıma yalnızca bu modelle doğru çalışır."
     },
     "dalle1": {
       "title": "Ayrıca görseller oluşturabilirsiniz",

@@ -3,8 +3,10 @@
 :root {
   --max-width: 1100px;
   --black: black;
+  --dark: #1e2337;
   --pink: #f738d1;
   --green: #55CC00;
+  --yellow: #BFBC50;
   --blue: #0088cc;
   --hoverBlue: #4030cf;
   --grey: #f3f4f7;

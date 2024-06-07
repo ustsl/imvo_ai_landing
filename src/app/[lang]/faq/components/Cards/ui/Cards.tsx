@@ -13,6 +13,7 @@ import img8 from './img/8.png'
 import img9 from './img/9.png'
 import img10 from './img/10.png'
 import img11 from './img/11.png'
+import img13 from './img/img13.png'
 
 import dalee1 from './img/dalee1.png'
 import dalee2 from './img/dalee2.png'
@@ -37,6 +38,7 @@ export const Cards = ({ faq }: { faq: any }) => {
         { title: faq.p7.title, text: faq.p7.description, image: img6 },
         { title: faq.p8.title, text: faq.p8.description, image: img7 },
         { title: faq.p9.title, text: faq.p9.description, image: img8 },
+        { title: faq.p13.title, text: faq.p13.description, image: img13 },
 
         { title: faq.p10.title, text: faq.p10.description, image: img9 },
         { title: faq.p11.title, text: faq.p11.description, image: img10 },
@@ -52,7 +54,6 @@ export const Cards = ({ faq }: { faq: any }) => {
                     <CardComponent key={index} title={title} text={item.text} image={item.image} />
                 )
             })}
-
         </CardsWrapper>
     )
 }

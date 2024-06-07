@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0 auto;
     max-width: 730px;
-    border: 1px solid var(--blue);
+    border: 1px solid var(--dark);
     border-radius: var(--border-radius);
 }
 

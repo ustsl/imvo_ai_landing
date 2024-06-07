@@ -47,3 +47,9 @@
 .light:hover {
     background-color: var(--grey);
 }
+
+@media (max-width:768px) {
+    .button {
+        padding: 10px 20px;
+    }
+}

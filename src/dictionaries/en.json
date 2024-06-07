@@ -10,9 +10,12 @@
     "manual": "Read the instructions"
   },
   "advantages": {
-    "a": "<p>Pay with cryptocurrency and for specific usage without a subscription fee. You pay for each individual request. <strong>It's profitable.</strong></p>",
-    "b": "<p>A unique setting for <strong>the depth of dialogue memorization</strong> within the prompt settings. Monitor the consistency and accuracy of responses based on your previous context.</p>",
-    "c": "<p>Create complex prompts, share links to them, and <strong>make money from other people using them</strong>. Discover new possibilities of GPT.</p>"
+    "a": "<p>Payment with cryptocurrency without regional usage restrictions. <strong>CryptoCloud processing is connected to the service.</strong></p>",
+    "b": "<p>Advanced settings <strong>beyond standard CHAT GPT.</strong> You can control the memory depth of previous messages within a dialogue and manage prompt stability.</p>",
+    "c": "<p>You can <strong>earn money</strong> on your presets by sharing them with other users. Earn up to 10% of the cost of using prompts.</p>",
+    "d": "<p>We support modern models and features of <strong>image recognition.</strong> Create bots that can read handwritten letters, recipes, visual graphs, etc.</p>",
+    "e": "<p>We work not only in Telegram but also provide links to <strong>APIs for launching in your services.</strong></p>",
+    "f": "<p>The main functions are implemented within the messenger chat; the prompt lab is implemented in a convenient <strong>Telegram Mini App interface.</strong></p>"
   },
   "meta": {
     "title": "IMVO. Chat GPT in Telegram. Flexible prompt builder",
@@ -69,6 +72,10 @@
     "p12": {
       "title": "Crypto-processing",
       "description": "After entering the required amount, you will be taken to the corresponding interface. Complete the payment and wait for the funds to be credited. If you want to make a payment in another way, contact us on Telegram (contacts are listed inside the application)."
+    },
+    "p13": {
+      "title": "Image Recognition",
+      "description": "To ensure the bot correctly responds to images you send in the chat, make sure the preset prompt is set to gpt-4o. Image recognition only works correctly with this model."
     },
     "dalle1": {
       "title": "You can also create images",

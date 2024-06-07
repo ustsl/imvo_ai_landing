@@ -14,6 +14,8 @@ import { Metadata } from "next";
 import { VideoContainer } from "@/components/shared/VideoContainer";
 import { BaseContainer } from "@/components/shared/BaseContainer/ui/BaseContainer";
 import Link from "next/link";
+import { Cards } from "@/components/widgets/Cards";
+
 
 
 export async function generateMetadata(
@@ -34,11 +36,12 @@ export default async function Home({
   params: { lang: Locale }
 }) {
   const lang = params.lang ? params.lang : 'en'
-  const { landing, button, advantages } = await getDictionary(lang)
+  const { landing, button } = await getDictionary(lang)
   return (
     <BaseContainer>
-      <GridBlock gridSize={'S'}>
+      <GridBlock gridSize={'M'}>
         <ColoredTitle header={landing.title} subheader={landing.subtitle} />
+
         <ShortDescription
           text={landing.lead} />
 
@@ -52,17 +55,7 @@ export default async function Home({
 
         </div>
       </GridBlock>
-      <div className={styles.cards}>
-        <CardComponent
-          content={advantages.a}
-          color="green" />
-        <CardComponent
-          content={advantages.b}
-          color="grey" />
-        <CardComponent
-          content={advantages.c}
-          color="blue" />
-      </div>
+      <Cards lang={lang} />
 
       <QuickSpeakComponent quickId={`imvo-ai-${lang}`} />
       <ShortDescription
