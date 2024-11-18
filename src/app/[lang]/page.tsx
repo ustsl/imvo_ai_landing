@@ -4,7 +4,6 @@ import { ColoredTitle } from "@/components/shared/ColoredTitle";
 import { ShortDescription } from "@/components/shared/ShortDescription";
 import { LinkButton } from "@/components/shared/LinkButton";
 import { QuickSpeakComponent } from "@/components/shared/QuickSpeakComponent";
-import { CardComponent } from "@/components/shared/CardComponent";
 import { GridBlock } from "@/components/shared/GridBlock";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons";
@@ -40,24 +39,24 @@ export default async function Home({
   return (
     <BaseContainer>
       <GridBlock gridSize={'M'}>
-        <ColoredTitle header={landing.title} subheader={landing.subtitle} />
 
-        <ShortDescription
-          text={landing.lead} />
+        <div className={styles.lead}>
+          <div className={styles.header}>
+            <ColoredTitle header={landing.title} subheader={landing.subtitle} />
+            <ShortDescription text={landing.lead} color="white" />
+            <div className={styles.buttons}>
 
-        <div className={styles.buttons}>
+              <LinkButton href={"https://t.me/imvo_prompt_bot"}
+                text={button.button}
+                icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
 
-          <LinkButton href={"https://t.me/imvo_prompt_bot"}
-            text={button.button}
-            icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
-
-          <Link className={styles.link} href={`/${lang}/faq`}>{button.manual}</Link>
-
+              <Link className={styles.link} href={`/${lang}/faq`}>{button.manual}</Link>
+            </div>
+          </div>
+          <QuickSpeakComponent quickId={`imvo-ai-${lang}`} />
         </div>
       </GridBlock>
       <Cards lang={lang} />
-
-      <QuickSpeakComponent quickId={`imvo-ai-${lang}`} />
       <ShortDescription
         text={landing.description} />
       <VideoContainer video={"https://www.youtube.com/embed/7l8jlwp8314?si=YUI0B2PwqFb1jjxx"} />

@@ -6,8 +6,8 @@
     "description": "TELEGRAM içinde GPT sağlayıcısı IMVO'yu kullanın. Hizmet, <strong>anahtar OPEN AI işlevselliği</strong> sunar, geçmiş mesajların özelleştirilebilir hafızası ve esnek prompt yapılandırması ile genişletilmiştir. Tüm kullanıcılar <strong>başlangıç bakiyesi</strong> alır ve bu bakiye ile hizmetimizi kullanabilirsiniz."
   },
   "button": {
-    "button": "Botu kullanmaya başla",
-    "manual": "Talimatları oku"
+    "button": "Başla",
+    "manual": "Talimatları"
   },
   "advantages": {
     "a": "<p>Bölgesel kullanım kısıtlamaları olmadan kripto para ile ödeme. <strong>Hizmete CryptoCloud işleme bağlantısı sağlanmıştır.</strong></p>",

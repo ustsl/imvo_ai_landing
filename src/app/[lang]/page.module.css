@@ -1,9 +1,29 @@
+.lead {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background-color: var(--dark);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  padding-left: 30px;
+  gap: 30px;
+}
+
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  margin-top: 40px;
   gap: 40px;
+}
+
+.header {
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 

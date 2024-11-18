@@ -3,7 +3,11 @@
     max-width: 800px;
     font-size: 1.2rem;
     line-height: 1.8rem;
-    text-align: center;
+    color: var(--black);
+}
+
+.colorWhite {
+    color: var(--white);
 }
 
 @media (max-width:768px) {

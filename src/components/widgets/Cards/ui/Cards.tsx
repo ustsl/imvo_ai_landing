@@ -12,12 +12,14 @@ import { CardComponent } from '@/components/shared/CardComponent'
 
 import { baseLanguages } from '@/types/baseTypes'
 import { getDictionary } from '@/dictionaries/clientDictionary'
+import { QuickSpeakComponent } from '@/components/shared/QuickSpeakComponent'
 
 export const Cards = ({ lang }: { lang: baseLanguages }) => {
     const { advantages } = getDictionary(lang)
     return (
         <div className={styles.cards}>
             <div className={styles.col}>
+
                 <CardComponent
                     content={advantages.a}
                     color="blue"

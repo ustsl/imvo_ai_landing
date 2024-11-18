@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 6rem 0;
-    gap: 6rem;
+    padding: 2rem 0;
+    gap: 4rem;
     min-height: 100vh;
 }
 

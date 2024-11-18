@@ -6,8 +6,8 @@
     "description": "Use the GPT provider IMVO within TELEGRAM. The service offers <strong>key OPEN AI functionality</strong>, expanded with customizable memory of past messages and flexible pre-configuration of prompts. All users <strong>receive a starting balance</strong> with which you can use our service."
   },
   "button": {
-    "button": "Start using bot",
-    "manual": "Read the instructions"
+    "button": "Start using",
+    "manual": "Manual"
   },
   "advantages": {
     "a": "<p>Payment with cryptocurrency without regional usage restrictions. <strong>CryptoCloud processing is connected to the service.</strong></p>",
