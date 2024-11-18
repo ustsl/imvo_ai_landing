@@ -1,5 +1,4 @@
 .lead {
-  margin-top: 30px;
   display: grid;
   grid-template-columns: 2fr 3fr;
   background-color: var(--dark);
