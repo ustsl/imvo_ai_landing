@@ -7,12 +7,11 @@ import interfaceimg from './images/interface.jpg'
 import recognition from './images/recognition.png'
 import sets from './images/sets.png'
 
-
 import { CardComponent } from '@/components/shared/CardComponent'
 
 import { baseLanguages } from '@/types/baseTypes'
 import { getDictionary } from '@/dictionaries/clientDictionary'
-import { QuickSpeakComponent } from '@/components/shared/QuickSpeakComponent'
+
 
 export const Cards = ({ lang }: { lang: baseLanguages }) => {
     const { advantages } = getDictionary(lang)

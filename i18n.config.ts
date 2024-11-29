@@ -1,6 +1,8 @@
+import { baseLanguages } from "@/types/baseTypes"
+
 export const i18n = {
   defaultLocale: 'en',
-  locales: ['ru', 'tr', 'en']
+  locales: ['ru', 'tr', 'en', 'it']
 } as const
 
-export type Locale = 'en' | 'ru' | 'tr' 
+export type Locale = baseLanguages

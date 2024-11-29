@@ -34,18 +34,23 @@ export const LanguageSwitcher = () => {
     const path = pathname.slice(3)
 
     useEffect(() => {
+        setMenuVisible(false)
         const handleClickOutside = (event: { target: any; }) => {
             if (switchBlockRef.current && !switchBlockRef.current.contains(event.target)) {
                 setMenuVisible(false);
             }
         }
-
         document.addEventListener('mousedown', handleClickOutside);
 
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         }
     }, []);
+
+
+    useEffect(() => {
+        setMenuVisible(false)
+    }, [pathname])
 
     const renderLanguageButtons = () => {
         return filteredLanguages.map(langItem => {

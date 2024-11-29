@@ -7,6 +7,7 @@ import ruIcon from './img/ru.svg';
 import enIcon from './img/en.svg';
 import trIcon from './img/tr.svg';
 import deIcon from './img/de.svg';
+import itIcon from './img/it.svg'
 
 export const LanguageButton = ({ language, flagOnly, onClick }: ILanguageButton) => {
     let iconSrc, langText;
@@ -23,6 +24,10 @@ export const LanguageButton = ({ language, flagOnly, onClick }: ILanguageButton)
         case "tr":
             iconSrc = trIcon;
             langText = "Türkçe";
+            break;
+        case "it":
+            iconSrc = itIcon;
+            langText = "Italiano";
             break;
         default:
             iconSrc = ruIcon;

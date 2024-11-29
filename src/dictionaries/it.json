@@ -1,0 +1,97 @@
+{
+    "landing": {
+        "title": "GPT Prompt Lab",
+        "subtitle": "su Telegram",
+        "lead": "Crea prompt AI in un'interfaccia comoda e utilizza bot preconfigurati all'interno di Telegram o come API nei tuoi servizi.",
+        "description": "Utilizza il provider GPT IMVO all'interno di TELEGRAM. Il servizio offre <strong>funzionalità chiave di OPEN AI</strong>, ampliate con una memoria personalizzabile dei messaggi precedenti e una configurazione flessibile dei prompt. Tutti gli utenti <strong>ricevono un saldo iniziale</strong> per utilizzare il nostro servizio."
+    },
+    "button": {
+        "button": "Inizia a usare",
+        "manual": "Manuale"
+    },
+    "advantages": {
+        "a": "<p>Pagamento in criptovaluta senza restrizioni regionali. <strong>Il servizio è connesso a CryptoCloud.</strong></p>",
+        "b": "<p>Impostazioni avanzate <strong>oltre le funzionalità standard di CHAT GPT.</strong> Puoi controllare la profondità della memoria dei messaggi precedenti in un dialogo e gestire la stabilità del prompt.</p>",
+        "c": "<p>Puoi <strong>guadagnare</strong> con i tuoi preset condividendoli con altri utenti. Guadagna fino al 10% del costo di utilizzo dei prompt.</p>",
+        "d": "<p>Supportiamo modelli moderni e funzionalità di <strong>riconoscimento delle immagini.</strong> Crea bot capaci di leggere lettere scritte a mano, ricette, grafici visivi, ecc.</p>",
+        "e": "<p>Lavoriamo non solo su Telegram ma forniamo anche <strong>API per l'integrazione nei tuoi servizi.</strong></p>",
+        "f": "<p>Le principali funzioni sono implementate all'interno della chat del messenger; il laboratorio dei prompt è realizzato in una comoda interfaccia <strong>Mini App di Telegram.</strong></p>"
+    },
+    "meta": {
+        "title": "IMVO. Chat GPT su Telegram. Generatore di prompt flessibile",
+        "description": "Un servizio per creare prompt da utilizzare su Telegram o tramite API. Con elaborazione criptovalutaria."
+    },
+    "faq": {
+        "metaTitle": "Come usare ChatGPT su Telegram",
+        "metaDescription": "Una guida dettagliata in 12 passaggi per tutti",
+        "title": "Come usare ChatGPT su Telegram",
+        "p1": {
+            "title": "Inizia con il comando START all'interno del bot",
+            "description": "Questo comando ti registrerà e ti fornirà un saldo iniziale. Se sei già registrato, questo comando ti fornirà anche informazioni di base. Successivamente, apri l'interfaccia dell'applicazione utilizzando il pulsante."
+        },
+        "p2": {
+            "title": "Crea il tuo primo prompt",
+            "description": "Clicca sul pulsante per creare un prompt. Il titolo e la descrizione servono solo per identificare il prompt, mentre il campo PROMPT principale influisce sul funzionamento del bot."
+        },
+        "p3": {
+            "title": "Descrivi il prompt",
+            "description": "L'esempio nell'immagine sopra mostra un esempio di un semplice prompt per uno sviluppatore."
+        },
+        "p4": {
+            "title": "Non dimenticare le impostazioni tecniche",
+            "description": "Scegli il tipo di modello (sono disponibili modelli GPT moderni), la finestra di memoria (il numero di messaggi che il bot ricorderà e considererà nelle sue risposte, importante nei dialoghi o in altri casi in cui il contesto è importante) e lo stato del prompt (i prompt aperti possono essere utilizzati da altre persone, e riceverai il 10% del costo delle richieste da altri utenti). Salva le impostazioni dopo averle completate."
+        },
+        "p5": {
+            "title": "Installa il prompt creato",
+            "description": "Dopo aver salvato, verrai reindirizzato alla pagina del prompt creato. Ora puoi installarlo nella tua chat Telegram."
+        },
+        "p6": {
+            "title": "Modifica e condividi",
+            "description": "Puoi modificare il prompt creato a tuo piacimento e condividerlo come link API per l'uso al di fuori di Telegram in servizi di terze parti o tramite ID."
+        },
+        "p7": {
+            "title": "Condividi tramite ID",
+            "description": "Per utilizzare il prompt nelle chat di altri utenti, copia l'ID e condividilo con loro."
+        },
+        "p8": {
+            "title": "Inserisci gli ID di altri",
+            "description": "Inserisci l'ID nel campo corrispondente nella pagina principale. Se il codice è corretto e lo stato del prompt ne consente l'uso da parte di altri utenti, apparirà l'interfaccia di installazione del prompt nella chat."
+        },
+        "p9": {
+            "title": "Se il codice è errato o il prompt è chiuso",
+            "description": "Se il prompt non può essere installato, l'utente riceverà un errore appropriato."
+        },
+        "p10": {
+            "title": "Funzionalità aggiuntive nella chat",
+            "description": "Se stai utilizzando un nuovo prompt o riscontri altri problemi, ti consigliamo di utilizzare il comando /clear. Questo comando cancella la memoria dei messaggi precedenti inviati al bot."
+        },
+        "p11": {
+            "title": "Processo di pagamento",
+            "description": "Paghi per ogni richiesta senza costi aggiuntivi o limiti. Il pagamento avviene per qualsiasi importo tramite elaborazione criptovalutaria."
+        },
+        "p12": {
+            "title": "Elaborazione criptovalutaria",
+            "description": "Dopo aver inserito l'importo desiderato, verrai indirizzato all'interfaccia corrispondente. Completa il pagamento e attendi che i fondi vengano accreditati. Se desideri effettuare un pagamento in un altro modo, contattaci su Telegram (i contatti sono elencati all'interno dell'applicazione)."
+        },
+        "p13": {
+            "title": "Riconoscimento delle immagini",
+            "description": "Per garantire che il bot risponda correttamente alle immagini inviate nella chat, assicurati che il preset del prompt sia impostato su gpt-4o. Il riconoscimento delle immagini funziona correttamente solo con questo modello."
+        },
+        "dalle1": {
+            "title": "Puoi anche creare immagini",
+            "description": "Nelle impostazioni del prompt, seleziona il modello DALLE"
+        },
+        "dalle2": {
+            "title": "Definisci proprietà aggiuntive oltre al prompt",
+            "description": "Nelle proprietà, puoi impostare la dimensione e i parametri di generazione aggiuntivi, che possono influire sul risultato."
+        },
+        "dalle3": {
+            "title": "Imposta il prompt e invia una richiesta",
+            "description": "La risposta arriverà come link a un'immagine che puoi salvare senza perdita di qualità."
+        },
+        "dalle4": {
+            "title": "In questo caso, il risultato sarà il seguente",
+            "description": "Sperimenta!"
+        }
+    }
+}
