@@ -42,7 +42,7 @@ export const QuickSpeak = ({ lang }: { lang: baseLanguages }) => {
                 <div className={styles.modal}>
                     <div className={styles.quick}>
                         <button className={styles.closeButton} onClick={toggleModal}>✕</button>
-                        <iframe src={`https://qsbot.app/${locale.quickId}`} ></iframe>
+                        <iframe src={`https://app.qspk.me/${locale.quickId}`} ></iframe>
                     </div >
                 </div>
             )}
