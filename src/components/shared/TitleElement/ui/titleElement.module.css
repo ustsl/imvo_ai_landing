@@ -27,3 +27,9 @@ h4.title {
     font-size: 1.1em;
     line-height: 1.3em;
 }
+
+@media (max-width:480px) {
+    h1.title {
+        line-height: 1.3em;
+    }
+}
