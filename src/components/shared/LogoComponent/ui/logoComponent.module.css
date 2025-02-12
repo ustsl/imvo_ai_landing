@@ -2,9 +2,22 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    text-decoration: none;
 }
 
 .block span {
+    color: white;
     font-size: 1.5em;
     font-weight: 600;
+}
+
+.block:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width:768px) {
+    .block img {
+        max-width: 30px;
+    }
 }

@@ -1,0 +1,1 @@
+export { ImageScreenWrapper } from "./ui/ImageScreen";

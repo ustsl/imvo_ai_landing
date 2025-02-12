@@ -1,70 +1,46 @@
-
-import styles from "./page.module.css";
-import { ColoredTitle } from "@/components/shared/ColoredTitle";
-import { ShortDescription } from "@/components/shared/ShortDescription";
-import { LinkButton } from "@/components/shared/LinkButton";
-import { QuickSpeakComponent } from "@/components/shared/QuickSpeakComponent";
+import translate from './page.translate.json';
+import { FlexBetweenWrapper } from "@/components/shared/FlexBetweenWrapper";
 import { GridBlock } from "@/components/shared/GridBlock";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTelegram } from "@fortawesome/free-brands-svg-icons";
-import { getDictionary } from "@/dictionaries/serverDictionary";
-import { Locale } from "../../../i18n.config";
+import { LinkButton } from "@/components/shared/LinkButton";
+import { OpenAILogo } from "@/components/shared/OpenAI";
+import { TitleBlock } from "@/components/shared/TitleElement";
+import { QuickSpeak } from '@/components/widgets/QuickSpeak';
+import { baseLanguages } from "@/types/baseTypes";
 import { Metadata } from "next";
-import { VideoContainer } from "@/components/shared/VideoContainer";
-import { BaseContainer } from "@/components/shared/BaseContainer/ui/BaseContainer";
 import Link from "next/link";
-import { Cards } from "@/components/widgets/Cards";
 
+export async function generateMetadata({
+  params
+}: {
+  params: { lang: baseLanguages }
+}): Promise<Metadata> {
 
-
-export async function generateMetadata(
-  { params }: any
-): Promise<Metadata> {
-  let lang = params.lang ? params.lang : 'ru'
-  const { meta } = await getDictionary(lang)
+  const t = translate[params.lang] || translate['en'];
   return {
-    title: meta.title,
-    description: meta.description
-  }
+    title: t.metadata.title,
+    description: t.metadata.description
+  };
 }
-
 
 export default async function Home({
   params
 }: {
-  params: { lang: Locale }
+  params: { lang: baseLanguages }
 }) {
-  const lang = params.lang ? params.lang : 'en'
-  const { landing, button } = await getDictionary(lang)
+
+  const lang = params?.lang ? params.lang : 'en';
+  const t = translate[lang] || translate['en'];
+
   return (
-    <BaseContainer>
-      <GridBlock gridSize={'M'}>
-
-        <div className={styles.lead}>
-          <div className={styles.header}>
-            <ColoredTitle header={landing.title} subheader={landing.subtitle} />
-            <ShortDescription text={landing.lead} color="white" />
-            <div className={styles.buttons}>
-
-              <LinkButton href={"https://t.me/imvo_prompt_bot"}
-                text={button.button}
-                icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
-
-              <Link className={styles.link} href={`/${lang}/faq`}>{button.manual}</Link>
-            </div>
-          </div>
-          <QuickSpeakComponent quickId={`imvo-ai-${lang}`} />
-        </div>
+    <FlexBetweenWrapper>
+      <GridBlock gridSize="M">
+        <TitleBlock text={t.title} tag="h1" theme="light" />
+        <p>{t.paragraph}</p>
+        <QuickSpeak lang={lang} />
+        <Link href="https://ustsl.ru">{t.link}</Link>
+        <OpenAILogo />
       </GridBlock>
-      <Cards lang={lang} />
-      <ShortDescription
-        text={landing.description} />
-      <VideoContainer video={"https://www.youtube.com/embed/7l8jlwp8314?si=YUI0B2PwqFb1jjxx"} />
-
-      <LinkButton href={"https://t.me/imvo_prompt_bot"}
-        text={button.button}
-        icon={<FontAwesomeIcon icon={faTelegram} width={30} height={30} color="white" />} />
-
-    </BaseContainer>
+      <LinkButton text={t.button} href="https://t.me/imvo_prompt_bot" />
+    </FlexBetweenWrapper>
   );
 }

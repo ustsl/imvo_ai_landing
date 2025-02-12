@@ -6,7 +6,6 @@ import { ILanguageButton } from './languageButton.props';
 import ruIcon from './img/ru.svg';
 import enIcon from './img/en.svg';
 import trIcon from './img/tr.svg';
-import deIcon from './img/de.svg';
 import itIcon from './img/it.svg'
 
 export const LanguageButton = ({ language, flagOnly, onClick }: ILanguageButton) => {

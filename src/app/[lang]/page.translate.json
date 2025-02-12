@@ -1,0 +1,42 @@
+{
+    "en": {
+        "metadata": {
+            "title": "GPT inside Telegram and AI widget builder for websites",
+            "description": "Build your AI-based application"
+        },
+        "title": "AI Widget Builder for Websites and Any Applications",
+        "paragraph": "Create AI prompts using an easy-to-use interface, connect several prompts into a single scenario. Use it personally inside Telegram or integrate it via the available API on any website.",
+        "link": "Get help with integrating AI into your application",
+        "button": "Open Builder"
+    },
+    "ru": {
+        "metadata": {
+            "title": "GPT внутри Telegram и конструктор АИ-виджетов для сайтов",
+            "description": "Собери свое приложение на базе AI"
+        },
+        "title": "Конструктор AI-виджетов для сайтов и любых приложений",
+        "paragraph": "Создавайте AI-промпты в удобном интерфейсе, связывайте несколько промптов в единый сценарий. Используйте персонально внутри телеграм, или интегрируйте с помощью доступного API на любой сайт.",
+        "link": "Помощь с интеграцией AI в ваше приложение",
+        "button": "Открыть конструктор"
+    },
+    "tr": {
+        "metadata": {
+            "title": "Telegram İçinde GPT ve Web Siteleri için AI Widget Oluşturucu",
+            "description": "AI tabanlı uygulamanızı oluşturun"
+        },
+        "title": "Web Siteleri ve Her Türlü Uygulamalar için AI Widget Oluşturucu",
+        "paragraph": "Kullanımı kolay bir arayüzde AI komutlarını oluşturun, birkaç komutu tek bir senaryoda birleştirin. Telegram'da kişisel olarak kullanın veya herhangi bir web sitesine entegre edilebilen API ile kullanın.",
+        "link": "Uygulamanıza AI entegrasyonu için yardım",
+        "button": "Oluşturucuyu Aç"
+    },
+    "it": {
+        "metadata": {
+            "title": "GPT all'interno di Telegram e costruttore di widget AI per siti web",
+            "description": "Costruisci la tua applicazione basata sull'AI"
+        },
+        "title": "Costruttore di Widget AI per Siti Web e Applicazioni di Qualsiasi Tipo",
+        "paragraph": "Crea prompt AI con un'interfaccia intuitiva, collega più prompt in un unico scenario. Utilizzalo personalmente su Telegram o integralo in qualsiasi sito tramite un API disponibile.",
+        "link": "Assistenza per integrare l'AI nella tua applicazione",
+        "button": "Apri il costruttore"
+    }
+}

@@ -8,7 +8,6 @@ export const Header = () => {
     return (
         <div className={styles.block}>
             <LogoComponent />
-            <OpenAILogo />
             <LanguageSwitcher />
         </div>
     )

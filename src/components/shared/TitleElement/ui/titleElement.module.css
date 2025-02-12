@@ -1,20 +1,16 @@
 .title {
     margin: 0px;
-    color: #303030;
     font-weight: 600;
 }
 
-.green {
-    color: var(--blue);
-}
 
-.light {
-    font-weight: 500;
+.darkTheme {
+    color: black;
 }
 
 h1.title {
     font-size: 1.4em;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 
 h2.title {

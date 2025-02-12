@@ -6,6 +6,8 @@ import { Montserrat } from "next/font/google";
 import { FooterComponent } from "@/components/widgets/Footer";
 import { ScriptsBlock } from "@/components/shared/ScriptsBlock";
 import { Header } from "@/components/widgets/Header";
+import { ImageScreenWrapper } from "@/components/shared/ImageScreenWrapper";
+import { CloudCardWrapper } from "@/components/shared/CloudCardWrapper";
 
 const inter = Montserrat({ subsets: ["latin", "cyrillic"] });
 
@@ -27,9 +29,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ScriptsBlock gtmList={'GTM-5Q75X56W'} />
-        <Header />
-        {children}
-        <FooterComponent />
+        <ImageScreenWrapper>
+          <CloudCardWrapper>
+            <Header />
+            {children}
+          </CloudCardWrapper>
+        </ImageScreenWrapper>
       </body>
     </html>
   );

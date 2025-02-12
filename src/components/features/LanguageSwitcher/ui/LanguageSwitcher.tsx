@@ -1,8 +1,9 @@
 'use client'
 
+import styles from './languageSwitcher.module.css';
 import { useParams, usePathname } from 'next/navigation';
 
-import styles from './languageSwitcher.module.css';
+
 import { baseLanguages } from '@/types/baseTypes';
 
 import Link from 'next/link'
@@ -61,7 +62,7 @@ export const LanguageSwitcher = () => {
                     </Link>
                 );
             }
-            return null;
+            return null
         });
     }
 
