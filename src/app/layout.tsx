@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 
-import { FooterComponent } from "@/components/widgets/Footer";
+
 import { ScriptsBlock } from "@/components/shared/ScriptsBlock";
 import { Header } from "@/components/widgets/Header";
 import { ImageScreenWrapper } from "@/components/shared/ImageScreenWrapper";
