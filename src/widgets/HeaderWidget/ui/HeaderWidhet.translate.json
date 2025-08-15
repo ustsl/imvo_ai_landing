@@ -1,0 +1,18 @@
+{
+  "ru": {
+    "help": "Помощь с интеграцией",
+    "go_to_constructor": "Перейти в конструктор"
+  },
+  "en": {
+    "help": "Integration Help",
+    "go_to_constructor": "Go to Constructor"
+  },
+  "de": {
+    "help": "Hilfe bei der Integration",
+    "go_to_constructor": "Zum Konstruktor"
+  },
+  "tr": {
+    "help": "Entegrasyon Yardımı",
+    "go_to_constructor": "Konstrüktöre Git"
+  }
+}

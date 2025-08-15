@@ -1,0 +1,1 @@
+export { GradientTitleComponent } from "./ui/GradientTitleComponent";

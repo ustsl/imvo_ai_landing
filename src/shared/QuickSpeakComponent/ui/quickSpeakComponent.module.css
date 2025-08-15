@@ -1,0 +1,44 @@
+.quick {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 740px;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.quick iframe {
+  border: 0;
+  max-width: 740px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.quick::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: 3px;
+  border-radius: 18px;
+  background: linear-gradient(
+    90deg,
+    var(--violet-color),
+    var(--blue-color),
+    var(--green-color),
+    var(--violet-color)
+  );
+  background-size: 300% 300%;
+  animation: gradient-move 5s linear infinite;
+  z-index: -1;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}

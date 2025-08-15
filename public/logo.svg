@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 145" role="img" aria-label="IMVO">
+  <defs>
+    <linearGradient id="imvo_grad" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7B5CFF"/>
+      <stop offset="50%" stop-color="#00D1FF"/>
+      <stop offset="100%" stop-color="#00FFA3"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Слово IMVO с градиентной заливкой -->
+  <text x="0" y="138"
+        font-family="Noto Sans, Noto Sans Display, Inter, Segoe UI, Roboto, Arial, sans-serif"
+        font-weight="800"
+        letter-spacing="2"
+        font-size="160"
+        fill="url(#imvo_grad)">IMVO</text>
+
+  <!-- Яркая точка-акцент (справа-сверху) -->
+  <g>
+    <circle cx="450" cy="20" r="16" fill="#00E7FF" opacity="0.35" filter="url(#glow)"/>
+    <circle cx="450" cy="20" r="7" fill="#00E7FF"/>
+    <circle cx="450" cy="20" r="3" fill="#FFFFFF"/>
+  </g>
+</svg>

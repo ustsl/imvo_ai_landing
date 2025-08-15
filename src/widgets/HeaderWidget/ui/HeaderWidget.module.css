@@ -1,0 +1,52 @@
+.header {
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--violet-color),
+    var(--blue-color),
+    var(--green-color),
+    var(--violet-color)
+  );
+  background-size: 300% 100%;
+  animation: gradient-move 5s linear infinite;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 30px 0;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

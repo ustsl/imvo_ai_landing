@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    linear-gradient(
+      90deg,
+      var(--violet-color),
+      var(--blue-color),
+      var(--green-color)
+    );
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-position: 50% 0;
+}
+
+.metal {
+  background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+  background-size: 200% 200%;
+}

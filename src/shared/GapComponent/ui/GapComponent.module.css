@@ -1,0 +1,4 @@
+.gapWrapper {
+  display: flex;
+  flex-direction: column;
+}

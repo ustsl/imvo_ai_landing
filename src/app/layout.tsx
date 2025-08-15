@@ -1,23 +1,18 @@
-import "./globals.css";
-
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
+import "./globals.css";
+import { ScriptsBlock } from "@/shared/ScriptsBlock";
 
 
-import { ScriptsBlock } from "@/components/shared/ScriptsBlock";
-import { Header } from "@/components/widgets/Header";
-import { ImageScreenWrapper } from "@/components/shared/ImageScreenWrapper";
-import { CloudCardWrapper } from "@/components/shared/CloudCardWrapper";
+const notoSans = Noto_Sans({
+  variable: "--font-noto-sans",
+  subsets: ["latin", "cyrillic"],
+});
 
-const inter = Montserrat({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
-  title: "Quickspeak. Landing bot builder. Create dynamic landing page",
-  description: "Create dynamic landing page with Quickspeak. With awesome landing button dialog style.",
-  icons: {
-    icon: 'icon.png',
-    shortcut: 'icon.png'
-  }
+  title: "AI First Development",
+  description: "We created new gen projets",
 };
 
 export default function RootLayout({
@@ -27,14 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ScriptsBlock gtmList={'GTM-5Q75X56W'} />
-        <ImageScreenWrapper>
-          <CloudCardWrapper>
-            <Header />
-            {children}
-          </CloudCardWrapper>
-        </ImageScreenWrapper>
+      <body className={`${notoSans.variable}`}>
+        <ScriptsBlock gtmList={'GTM-TN9NXQ6'} />
+        {children}
       </body>
     </html>
   );

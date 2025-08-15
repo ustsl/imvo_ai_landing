@@ -1,0 +1,10 @@
+.slogan {
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .slogan {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    linear-gradient(
+      135deg,
+      var(--violet-color),
+      var(--blue-color),
+      var(--green-color)
+    );
+}
+
+.metal {
+  background: linear-gradient(145deg, #2e2e2e, #1c1c1c);
+  background-size: 200% 200%;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 400;
+}
