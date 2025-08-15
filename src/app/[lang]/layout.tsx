@@ -4,11 +4,12 @@ import { FooterComponent } from "@/widgets/FooterComponent";
 
 export default async function LangLayout({
     children,
-    params: { lang },
+    params,
 }: {
     children: React.ReactNode;
-    params: { lang: baseLanguages };
+    params: Promise<{ lang: baseLanguages }>;
 }) {
+    const { lang } = await params;
 
     return (
         <>
