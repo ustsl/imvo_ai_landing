@@ -1,90 +1,50 @@
 {
   "ru": {
+    "metaTitle": "IMVO. Конструктор АИ-приложений для бизнеса и личных задач.",
+    "metaDesc": "Создавайте AI-приложения под задачи бизнеса или личные проекты. Удобный интерфейс, интеграция с Telegram и API.",
     "title": "Гибкий конструктор AI-приложений",
     "desc": "Создавайте AI-промпты в удобном интерфейсе, связывайте несколько промптов в единый сценарий. Используйте персонально внутри телеграм, или интегрируйте с помощью доступного API на любой сайт.",
     "cards": [
-      {
-        "title": "Интегрирован с телеграм",
-        "text": "Собирайте приложения в телеграм-ботe. Доступен для разработки и тестирования на любом устройстве."
-      },
-      {
-        "title": "Кеширует повторения",
-        "text": "Каждый промпт вашего приложения бесконфликтно создает память прошлых запросов. Это ускоряет работу и экономит расход токенов."
-      },
-      {
-        "title": "Взаимодействует с контентом сайта",
-        "text": "Вы можете создавать не просто коллаборации промптов, но и добавлять в конструкции алгоритмы и сканирование внешних данных."
-      },
-      {
-        "title": "Расширяет возможности GPT",
-        "text": "Настраиваемое контекстное окно, моделирование из множества промптов."
-      }
+      { "title": "Интегрирован с телеграм", "text": "Собирайте приложения в телеграм-ботe. Доступен для разработки и тестирования на любом устройстве." },
+      { "title": "Кеширует повторения", "text": "Каждый промпт вашего приложения бесконфликтно создает память прошлых запросов. Это ускоряет работу и экономит расход токенов." },
+      { "title": "Взаимодействует с контентом сайта", "text": "Вы можете создавать не просто коллаборации промптов, но и добавлять в конструкции алгоритмы и сканирование внешних данных." },
+      { "title": "Расширяет возможности GPT", "text": "Настраиваемое контекстное окно, моделирование из множества промптов." }
     ]
   },
   "en": {
+    "metaTitle": "IMVO. AI Application Builder for business and personal tasks.",
+    "metaDesc": "Create AI applications for business or personal projects. User-friendly interface, Telegram and API integration.",
     "title": "Flexible AI Application Builder",
     "desc": "Create AI prompts in a convenient interface, link several prompts into a single scenario. Use personally inside Telegram, or integrate via the available API into any website.",
     "cards": [
-      {
-        "title": "Integrated with Telegram",
-        "text": "Build applications inside a Telegram bot. Available for development and testing on any device."
-      },
-      {
-        "title": "Caches repetitions",
-        "text": "Each prompt in your app creates a conflict-free memory of past requests. This speeds up work and saves token usage."
-      },
-      {
-        "title": "Interacts with website content",
-        "text": "You can create not just prompt collaborations, but also add algorithms and external data scanning."
-      },
-      {
-        "title": "Expands GPT capabilities",
-        "text": "Customizable context window, modeling from multiple prompts."
-      }
+      { "title": "Integrated with Telegram", "text": "Build applications inside a Telegram bot. Available for development and testing on any device." },
+      { "title": "Caches repetitions", "text": "Each prompt in your app creates a conflict-free memory of past requests. This speeds up work and saves token usage." },
+      { "title": "Interacts with website content", "text": "You can create not just prompt collaborations, but also add algorithms and external data scanning." },
+      { "title": "Expands GPT capabilities", "text": "Customizable context window, modeling from multiple prompts." }
     ]
   },
   "de": {
+    "metaTitle": "IMVO. KI-Anwendungs-Builder für geschäftliche und private Aufgaben.",
+    "metaDesc": "Erstellen Sie KI-Anwendungen für geschäftliche oder private Projekte. Benutzerfreundliche Oberfläche, Telegram- und API-Integration.",
     "title": "Flexibler KI-Anwendungs-Builder",
     "desc": "Erstellen Sie KI-Prompts in einer benutzerfreundlichen Oberfläche, verknüpfen Sie mehrere Prompts zu einem einzigen Szenario. Verwenden Sie es persönlich in Telegram oder integrieren Sie es über die verfügbare API auf jeder Website.",
     "cards": [
-      {
-        "title": "In Telegram integriert",
-        "text": "Erstellen Sie Anwendungen in einem Telegram-Bot. Verfügbar für Entwicklung und Tests auf jedem Gerät."
-      },
-      {
-        "title": "Speichert Wiederholungen im Cache",
-        "text": "Jeder Prompt Ihrer Anwendung erstellt speicherfreundlich vergangene Anfragen. Das beschleunigt die Arbeit und spart Tokens."
-      },
-      {
-        "title": "Interagiert mit Website-Inhalten",
-        "text": "Sie können nicht nur Prompt-Kollaborationen erstellen, sondern auch Algorithmen und externe Datenscans hinzufügen."
-      },
-      {
-        "title": "Erweitert GPT-Funktionen",
-        "text": "Anpassbares Kontextfenster, Modellierung aus mehreren Prompts."
-      }
+      { "title": "In Telegram integriert", "text": "Erstellen Sie Anwendungen in einem Telegram-Bot. Verfügbar für Entwicklung und Tests auf jedem Gerät." },
+      { "title": "Speichert Wiederholungen im Cache", "text": "Jeder Prompt Ihrer Anwendung erstellt speicherfreundlich vergangene Anfragen. Das beschleunigt die Arbeit und spart Tokens." },
+      { "title": "Interagiert mit Website-Inhalten", "text": "Sie können nicht nur Prompt-Kollaborationen erstellen, sondern auch Algorithmen und externe Datenscans hinzufügen." },
+      { "title": "Erweitert GPT-Funktionen", "text": "Anpassbares Kontextfenster, Modellierung aus mehreren Prompts." }
     ]
   },
   "tr": {
+    "metaTitle": "IMVO. İş ve kişisel görevler için yapay zeka uygulama oluşturucu.",
+    "metaDesc": "İş veya kişisel projeler için yapay zeka uygulamaları oluşturun. Kullanıcı dostu arayüz, Telegram ve API entegrasyonu.",
     "title": "Esnek Yapay Zeka Uygulama Oluşturucu",
     "desc": "AI istemlerini kolay bir arayüzde oluşturun, birkaç istemi tek bir senaryoda birleştirin. Telegram içinde kişisel olarak kullanın veya mevcut API ile herhangi bir web sitesine entegre edin.",
     "cards": [
-      {
-        "title": "Telegram ile entegre",
-        "text": "Telegram botunda uygulamalar oluşturun. Her cihazda geliştirme ve test için kullanılabilir."
-      },
-      {
-        "title": "Tekrarları önbelleğe alır",
-        "text": "Uygulamanızdaki her istem, geçmiş isteklerin çakışmasız bir hafızasını oluşturur. Bu, çalışmayı hızlandırır ve token tüketimini azaltır."
-      },
-      {
-        "title": "Web sitesi içeriği ile etkileşim kurar",
-        "text": "Sadece istem işbirlikleri değil, aynı zamanda algoritmalar ve harici veri taramaları ekleyebilirsiniz."
-      },
-      {
-        "title": "GPT'nin yeteneklerini genişletir",
-        "text": "Özelleştirilebilir bağlam penceresi, birden fazla istemden modelleme."
-      }
+      { "title": "Telegram ile entegre", "text": "Telegram botunda uygulamalar oluşturun. Her cihazda geliştirme ve test için kullanılabilir." },
+      { "title": "Tekrarları önbelleğe alır", "text": "Uygulamanızdaki her istem, geçmiş isteklerin çakışmasız bir hafızasını oluşturur. Bu, çalışmayı hızlandırır ve token tüketimini azaltır." },
+      { "title": "Web sitesi içeriği ile etkileşim kurar", "text": "Sadece istem işbirlikleri değil, aynı zamanda algoritmalar ve harici veri taramaları ekleyebilirsiniz." },
+      { "title": "GPT'nin yeteneklerini genişletir", "text": "Özelleştirilebilir bağlam penceresi, birden fazla istemden modelleme." }
     ]
   }
 }

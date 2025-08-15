@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import translate from './page.translate.json';
 import { ContainerComponent } from "@/shared/ContainerComponent";
 import { GapComponent } from "@/shared/GapComponent";
@@ -13,14 +14,27 @@ function isBaseLanguage(lang: unknown): lang is baseLanguages {
   return typeof lang === 'string' && languageList.includes(lang as baseLanguages);
 }
 
-export default async function Home({
-  params
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang: rawLang } = await params;
+function getLang(rawLang: unknown): baseLanguages {
+  return isBaseLanguage(rawLang) ? rawLang : 'en';
+}
 
-  const lang: baseLanguages = isBaseLanguage(rawLang) ? rawLang : 'en';
+export async function generateMetadata(
+  { params }: { params: Promise<{ lang: string }> }
+): Promise<Metadata> {
+  const { lang: rawLang } = await params;
+  const lang = getLang(rawLang);
+  const t = translate[lang];
+  return {
+    title: t.metaTitle,
+    description: t.metaDesc,
+  };
+}
+
+export default async function Home(
+  { params }: { params: Promise<{ lang: string }> }
+) {
+  const { lang: rawLang } = await params;
+  const lang = getLang(rawLang);
   const t = translate[lang];
 
   return (
