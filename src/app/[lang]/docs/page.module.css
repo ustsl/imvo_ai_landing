@@ -1,0 +1,11 @@
+.scenario {
+  padding: 16px;
+  border-radius: var(--border-radius);
+  background: radial-gradient(
+      farthest-corner at 0 0,
+      var(--glow-a) 0%,
+      var(--glow-b) 40%,
+      var(--glow-c) 100%
+    ),
+    var(--background);
+}

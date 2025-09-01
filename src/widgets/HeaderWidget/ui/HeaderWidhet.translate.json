@@ -1,18 +1,22 @@
 {
   "ru": {
     "help": "Помощь с интеграцией",
-    "go_to_constructor": "Перейти в конструктор"
+    "go_to_constructor": "Перейти в конструктор",
+    "docs": "Документация"
   },
   "en": {
     "help": "Integration Help",
-    "go_to_constructor": "Go to Constructor"
+    "go_to_constructor": "Go to Constructor",
+    "docs": "Documentation"
   },
   "de": {
     "help": "Hilfe bei der Integration",
-    "go_to_constructor": "Zum Konstruktor"
+    "go_to_constructor": "Zum Konstruktor",
+    "docs": "Dokumentation"
   },
   "tr": {
     "help": "Entegrasyon Yardımı",
-    "go_to_constructor": "Konstrüktöre Git"
+    "go_to_constructor": "Konstrüktöre Git",
+    "docs": "Dokümantasyon"
   }
 }

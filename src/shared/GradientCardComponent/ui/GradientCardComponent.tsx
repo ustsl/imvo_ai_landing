@@ -4,7 +4,7 @@ type CardStyle = 'gradient' | 'metal';
 
 type GradientCardProps = {
     title: string;
-    text: string;
+    text?: string;
     styleType?: CardStyle;
 };
 
@@ -16,7 +16,7 @@ export const GradientCardComponent = ({
     return (
         <div className={`${styles.card} ${styles[styleType]}`}>
             <h3 className={styles.title}>{title}</h3>
-            <p className={styles.text}>{text}</p>
+            {text && <p className={styles.text}>{text}</p>}
         </div>
     );
 };

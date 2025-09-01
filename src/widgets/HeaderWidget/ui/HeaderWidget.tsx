@@ -17,8 +17,9 @@ export const HeaderWidget = ({ lang }: { lang: baseLanguages }) => {
                     <SloganComponent />
                 </FlexComponent>
                 <FlexComponent>
-                    <GradientLinkButton href="https://ustsl.ru" text={t.help} variant="metal" />
-                    <GradientLinkButton href="https://t.me/imvo_prompt_bot" text={t.go_to_constructor} />
+                    <GradientLinkButton href="https://ustsl.ru" text={t.help} variant="metal" blank />
+                    <GradientLinkButton href="/docs" text={t.docs} variant="metal" />
+                    <GradientLinkButton href="https://t.me/imvo_prompt_bot" text={t.go_to_constructor} blank />
                 </FlexComponent>
             </div>
         </div>

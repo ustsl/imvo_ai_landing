@@ -8,6 +8,7 @@ type GradientLinkButtonProps = {
     text: string;
     variant?: Variant;
     className?: string;
+    blank?: true
 };
 
 export const GradientLinkButton = ({
@@ -15,12 +16,13 @@ export const GradientLinkButton = ({
     text,
     variant = 'gradient',
     className,
+    blank,
 }: GradientLinkButtonProps) => {
     return (
         <Link
             href={href}
             className={`${styles.button} ${styles[variant]} ${className || ''}`}
-            target="_blank"
+            target={blank && `_blank`}
         >
             {text}
         </Link>

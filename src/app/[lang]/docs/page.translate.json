@@ -1,0 +1,226 @@
+{
+  "ru": {
+    "title": "Документация",
+    "desc": "Сервис работает внутри Telegram как мини-приложение. Оплата — в Telegram Stars. Вы можете создавать промпты, объединять их в многоуровневые сценарии и вызывать через API.",
+    "blocks": [
+      {
+        "id": "start",
+        "title": "Быстрый старт",
+        "text": "Откройте наш бот в Telegram и отправьте команду /start. Основное управление — в интерфейсе мини-приложения: там создаются промпты и сценарии, настраиваются параметры и отслеживается баланс Stars."
+      },
+      {
+        "id": "benefits",
+        "title": "Преимущества",
+        "text": "• Всё в Telegram: быстрый доступ, безопасность, привычный UX.\n• Оплата в Stars: моментально, без карт и внешних платёжек.\n• Повторное использование: открытые промпты приносят автору кэшбэк.\n• Масштабируемость: сценарии независимые или последовательные, под сложные LLM-цепочки."
+      },
+      {
+        "id": "miniApp",
+        "title": "Интерфейс мини-приложения",
+        "text": "Мини-апп — главный рабочий экран. Здесь вы создаёте промпты, объединяете их в проекты (сценарии), назначаете доступ (открытый/закрытый), выбираете модель и объём памяти сообщений, а также видите статистику и баланс."
+      },
+      {
+        "id": "prompts",
+        "title": "Промпты и их настройки",
+        "text": "В каждом промпте настраиваются: модель и память сообщений (без памяти, минимальная, средняя, большая). Память определяет, какой контекст из предыдущих сообщений будет доступен модели."
+      },
+      {
+        "id": "access",
+        "title": "Открытые vs закрытые промпты",
+        "text": "Закрытые доступны только создателю. Открытые доступны всем: если кто-то использует ваш открытый промпт, вы получаете кэшбэк на счёт."
+      },
+      {
+        "id": "scenarios",
+        "title": "Многоуровневые сценарии (проекты)",
+        "text": "Комбинируйте промпты в сценарии. В независимых сценариях каждый промпт отвечает на свой запрос. В зависимых — результат передаётся по цепочке: сначала исполняется первый промпт, затем его вывод поступает в следующий и т. д. Так строятся многоуровневые LLM-обработки."
+      },
+      {
+        "id": "apiPrompt",
+        "title": "API: запрос к промпту",
+        "text": "Вы можете дернуть конкретный промпт через HTTP POST. Пример ниже."
+      },
+      {
+        "id": "apiScenario",
+        "title": "API: запрос к сценарию",
+        "text": "Для запуска сценария используйте endpoint со /scenario. Пример ниже."
+      },
+      {
+        "id": "testing",
+        "title": "Тестирование промптов в Telegram",
+        "text": "Промпты вне сценариев можно «установить» в Telegram и тестировать ответы прямо внутри бота."
+      },
+      {
+        "id": "payments",
+        "title": "Оплата в Telegram Stars",
+        "text": "Все платежи проходят через Stars: это быстро, прозрачно и не требует сторонних платёжных сервисов."
+      }
+    ]
+  },
+  "en": {
+    "title": "Documentation",
+    "desc": "The service runs as a Telegram Mini App. Payments are made with Telegram Stars. Create prompts, chain them into multi-step scenarios, and invoke them via API.",
+    "blocks": [
+      {
+        "id": "start",
+        "title": "Quick Start",
+        "text": "Open our Telegram bot and send /start. The Mini App is your main workspace to create prompts, build scenarios, adjust settings, and track Stars balance."
+      },
+      {
+        "id": "benefits",
+        "title": "Benefits",
+        "text": "• All inside Telegram: fast, secure, familiar UX.\n• Stars payments: instant, no external gateways.\n• Reuse & cashback: open prompts earn cashback for the author.\n• Scalable: independent or sequential scenarios for complex LLM chains."
+      },
+      {
+        "id": "miniApp",
+        "title": "Mini App Interface",
+        "text": "Create prompts, group them into projects (scenarios), manage access (open/closed), select the model and message memory size, and view stats and balance."
+      },
+      {
+        "id": "prompts",
+        "title": "Prompts & Settings",
+        "text": "Configure the model and message memory (no, minimal, medium, large). Memory defines how much prior context the model sees."
+      },
+      {
+        "id": "access",
+        "title": "Open vs Closed Prompts",
+        "text": "Closed prompts are for the creator only. Open prompts are available to others; their usage accrues cashback to the owner."
+      },
+      {
+        "id": "scenarios",
+        "title": "Multi-Step Scenarios",
+        "text": "Combine prompts into scenarios. Independent prompts answer separately; sequential ones pass outputs down the chain for multi-level LLM processing."
+      },
+      {
+        "id": "apiPrompt",
+        "title": "API: Call a Prompt",
+        "text": "Trigger a specific prompt via HTTP POST. See example below."
+      },
+      {
+        "id": "apiScenario",
+        "title": "API: Call a Scenario",
+        "text": "Use the /scenario endpoint to run a scenario. See example below."
+      },
+      {
+        "id": "testing",
+        "title": "Testing in Telegram",
+        "text": "Standalone prompts can be installed in Telegram and tested directly in the bot."
+      },
+      {
+        "id": "payments",
+        "title": "Payments via Telegram Stars",
+        "text": "All payments go through Stars — fast and transparent, no external providers."
+      }
+    ]
+  },
+  "de": {
+    "title": "Dokumentation",
+    "desc": "Der Service läuft als Telegram-Mini-App. Zahlungen erfolgen mit Telegram Stars. Erstellen Sie Prompts, verketten Sie sie zu mehrstufigen Szenarien und rufen Sie alles per API auf.",
+    "blocks": [
+      {
+        "id": "start",
+        "title": "Schnellstart",
+        "text": "Öffnen Sie unseren Telegram-Bot und senden Sie /start. Die Mini-App ist Ihr Hauptarbeitsbereich für Prompts, Szenarien, Einstellungen und Stars-Saldo."
+      },
+      {
+        "id": "benefits",
+        "title": "Vorteile",
+        "text": "• Alles in Telegram: schnell, sicher, vertraute UX.\n• Stars-Zahlungen: sofort, ohne externe Gateways.\n• Wiederverwendung & Cashback: offene Prompts bringen dem Autor Cashback.\n• Skalierbar: unabhängige oder sequentielle Szenarien für komplexe LLM-Ketten."
+      },
+      {
+        "id": "miniApp",
+        "title": "Mini-App-Oberfläche",
+        "text": "Erstellen Sie Prompts, gruppieren Sie sie in Projekte (Szenarien), verwalten Sie Zugriffe (offen/geschlossen), wählen Sie Modell und Nachrichtenspeicher und sehen Sie Statistiken."
+      },
+      {
+        "id": "prompts",
+        "title": "Prompts & Einstellungen",
+        "text": "Konfigurieren Sie Modell und Nachrichtenspeicher (kein, minimal, mittel, groß). Der Speicher bestimmt, wie viel Kontext die KI sieht."
+      },
+      {
+        "id": "access",
+        "title": "Offene vs. geschlossene Prompts",
+        "text": "Geschlossene Prompts nur für den Ersteller. Offene sind für andere nutzbar; deren Nutzung generiert Cashback."
+      },
+      {
+        "id": "scenarios",
+        "title": "Mehrstufige Szenarien",
+        "text": "Kombinieren Sie Prompts zu Szenarien. Unabhängige Prompts antworten getrennt; sequentielle reichen Ausgaben in der Kette weiter."
+      },
+      {
+        "id": "apiPrompt",
+        "title": "API: Prompt aufrufen",
+        "text": "Einen bestimmten Prompt via HTTP-POST auslösen. Beispiel unten."
+      },
+      {
+        "id": "apiScenario",
+        "title": "API: Szenario aufrufen",
+        "text": "Verwenden Sie den /scenario-Endpoint. Beispiel unten."
+      },
+      {
+        "id": "testing",
+        "title": "Test in Telegram",
+        "text": "Einzelne Prompts können in Telegram installiert und im Bot getestet werden."
+      },
+      {
+        "id": "payments",
+        "title": "Zahlungen mit Telegram Stars",
+        "text": "Alle Zahlungen laufen über Stars — schnell und transparent."
+      }
+    ]
+  },
+  "tr": {
+    "title": "Dokümantasyon",
+    "desc": "Hizmet, Telegram Mini Uygulaması olarak çalışır. Ödemeler Telegram Stars ile yapılır. Promptlar oluşturun, çok adımlı senaryolara zincirleyin ve API ile çağırın.",
+    "blocks": [
+      {
+        "id": "start",
+        "title": "Hızlı Başlangıç",
+        "text": "Telegram botumuzu açın ve /start yazın. Mini uygulama; prompt oluşturma, senaryo kurma, ayarlar ve Stars bakiyesi için ana çalışma alanıdır."
+      },
+      {
+        "id": "benefits",
+        "title": "Avantajlar",
+        "text": "• Her şey Telegram’da: hızlı, güvenli, tanıdık arayüz.\n• Stars ile ödeme: anında, harici sağlayıcı yok.\n• Yeniden kullanım & cashback: açık promptlar yazara iade kazandırır.\n• Ölçeklenebilir: bağımsız veya sıralı senaryolar ile karmaşık LLM zincirleri."
+      },
+      {
+        "id": "miniApp",
+        "title": "Mini Uygulama Arayüzü",
+        "text": "Prompt oluşturun, projelere (senaryolar) gruplayın, erişimi yönetin (açık/kapalı), modeli ve mesaj hafızasını seçin, istatistik ve bakiyeyi görün."
+      },
+      {
+        "id": "prompts",
+        "title": "Promptlar ve Ayarları",
+        "text": "Model ve mesaj hafızası (yok, düşük, orta, yüksek) seçilir. Hafıza, modelin önceki bağlamı ne kadar göreceğini belirler."
+      },
+      {
+        "id": "access",
+        "title": "Açık vs Kapalı Promptlar",
+        "text": "Kapalı promptlar sadece oluşturana açıktır. Açık promptlar herkesçe kullanılabilir; kullanım, sahibine cashback kazandırır."
+      },
+      {
+        "id": "scenarios",
+        "title": "Çok Adımlı Senaryolar",
+        "text": "Promptları senaryolara kombine edin. Bağımsız promptlar ayrı ayrı yanıtlar; sıralı olanlar çıktıyı zincirde birbirine aktarır."
+      },
+      {
+        "id": "apiPrompt",
+        "title": "API: Prompt Çağrısı",
+        "text": "Belirli bir promptu HTTP POST ile tetikleyin. Aşağıdaki örneğe bakın."
+      },
+      {
+        "id": "apiScenario",
+        "title": "API: Senaryo Çağrısı",
+        "text": "/scenario uç noktasını kullanın. Aşağıdaki örneğe bakın."
+      },
+      {
+        "id": "testing",
+        "title": "Telegram’da Test",
+        "text": "Senaryo dışındaki promptlar Telegram’a kurulup bot içinde test edilebilir."
+      },
+      {
+        "id": "payments",
+        "title": "Telegram Stars ile Ödeme",
+        "text": "Ödemelerin tamamı Stars üzerinden, hızlı ve şeffaf şekilde yapılır."
+      }
+    ]
+  }
+}

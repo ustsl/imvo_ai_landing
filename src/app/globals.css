@@ -1,5 +1,6 @@
 :root {
   --background: #0a0a0a;
+  --text-grey-color: #bdbdbd;
   --max-width: 1200px;
   --violet-color: #7b5cff;
   --blue-color: #00d1ff;
@@ -7,6 +8,7 @@
   --glow-a: rgba(123, 92, 255, 0.16); /* ближний цвет */
   --glow-b: rgba(0, 209, 255, 0.1); /* переходный */
   --glow-c: rgba(0, 0, 0, 0); /* полная прозрачность */
+  --border-radius: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,7 +33,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: var(--text-grey-color);
   font-family: var(--font-noto-sans), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,7 +44,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--font-noto-sans);
 }
 
 a {
